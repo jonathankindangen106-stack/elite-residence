@@ -203,3 +203,23 @@ text-align:center;
 padding:20px;
 margin-top:50px;
 }
+@media (max-width:768px){
+
+.header-container{
+flex-direction:column;
+text-align:center;
+}
+
+nav{
+margin-top:10px;
+}
+
+.cards{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:24px;
+}
+
+}
